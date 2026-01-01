@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>Forms to apply for CSS</h1>
+    <!-- Form->Sends data to a server -->
+
+    <!-- <input> — User Input Field
+    Used for single-line input. -->
+    <div>
+        <form action="post">
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </form>
+    </div>
+
+    <!-- <input type="radio">
+    Creates a radio button
+    Used when the user must select only ONE option -->
+    <div>
+        <div>
+            <label>
+                <input type="radio" name="gender" value="Male"> Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="Female"> Female
+            </label>
+        </div>
+
+    </div>
+
+    <!-- Checkbox -->
+    <div>
+        <label>
+            <input type="checkbox" name="subscribe" value="yes">
+            Subscribe to newsletter
+        </label>
+    </div>
+
+
+    <!-- <textarea> — Multi-line Input
+    Used for long text (messages, comments). -->
+    <div>
+        <label for="comment">Comment:</label><br>
+        <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Enter your comment here...">
+    </textarea>
+    </div>
+
+
+    <!-- <select> — Dropdown Menu
+    Used to select one option from many. -->
+    <div>
+        <label for="city">City:</label><br>
+        <select name="city" id="city" required>
+            <option value="" disabled selected>Select City</option>
+            <option value="lahore">Lahore</option>
+            <option value="karachi">Karachi</option>
+            <option value="islamabad">Islamabad</option>
+        </select>
+    </div>
+
+</body>
+
+</html>
