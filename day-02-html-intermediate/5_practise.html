@@ -1,3 +1,8 @@
+<!-- Practise
+Make a contact form page:
+Name, Email, Message fields
+Submit button-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +11,26 @@
     <title>Document</title>
 </head>
 <body>
+    <form method = "post">
+    <div>
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" name="username" placeholder="Name">
+        </form>
+    </div>
+
+    <div>
+            <label for="Email">Enter your email:</label>
+            <input type="text" id="Email" name="username" placeholder="Email">
+        </form>
+    </div>
     
+    <div>
+        <label for="comment">Comment:</label><br>
+        <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Enter your comment here...">
+    </textarea>
+    </div>
+
+    <button type="button">Submit</button>
+
 </body>
 </html>
