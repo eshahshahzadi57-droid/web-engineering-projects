@@ -7,14 +7,87 @@ Forms
 Footer
 Add Comments -->
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Website</title>
 </head>
 <body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Mini Website</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#data">Table</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About / Content Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is a simple website created to practice HTML structure.</p>
+    </section>
+
+    <!-- Images Section -->
+    <section id="gallery">
+        <h2>Images</h2>
+        <img src="image1.jpg" alt="Sample Image" width="200">
+        <img src="image2.jpg" alt="Sample Image" width="200">
+    </section>
+
+    <!-- Table Section -->
+    <section id="data">
+        <h2>Skills Table</h2>
+        <table border="1">
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Form Section -->
+    <section id="contact">
+        <h2>Contact Form</h2>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Message:</label><br>
+            <textarea rows="4"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 My Mini Website</p>
+    </footer>
+
+</body>
+</html>
+
+
     
 </body>
 </html>
