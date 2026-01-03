@@ -1,0 +1,47 @@
+/*  CSS Introduction
+1)What is CSS?
+
+CSS (Cascading Style Sheets) is used to style and design HTML web pages.
+It controls:
+Colors 
+Fonts 
+Spacing 
+Layout 
+Animations 
+    -HTML = Structure
+    -CSS = Design / Appearance
+
+2)Types of CSS
+
+There are 3 ways to apply CSS:
+
+1️⃣ Inline CSS
+
+CSS is written inside the HTML tag using the style attribute.
+<p style="color: red; font-size: 20px;">Hello World</p>
+
+
+2️⃣ Internal CSS
+
+CSS is written inside <style> tag in the <head> section.
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    p {
+    color: blue;
+    font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <p>Hello CSS</p>
+</body>
+</html>
+
+3️⃣ External CSS 
+
+CSS is written in a separate .css file and linked to HTML.
+HTML file
+<link rel="stylesheet" href="style.css">
+*/
