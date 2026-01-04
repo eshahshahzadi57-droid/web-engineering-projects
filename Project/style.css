@@ -84,3 +84,16 @@
     border-bottom-right-radius: 4px;
     color: #0f1111;
 }
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-2nd{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
