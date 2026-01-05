@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     font-family: Arial;
     border: border-box;
 }
 
-.navbar{
+.navbar {
     height: 50px;
     background-color: #0f1111;
     color: white;
@@ -13,43 +13,42 @@
     justify-content: space-evenly;
 }
 
-.nav-logo{
+.nav-logo {
     height: 45px;
     width: 100px;
 }
 
-.logo{
+.logo {
     background-image: url(amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
 }
 
-.border{
+.border {
     border: 1.5px solid transparent;
 }
 
-.border:hover{
+.border:hover {
     border: 1.5px solid white;
 }
 
-.add-first{
+.add-first {
     color: #cccc;
     font-size: 0.85rem;
     margin-left: 15px;
 }
 
-.add-sec{
+.add-sec {
     font-size: 1rem;
     margin-right: 3px;
 }
 
-.add-icon{
-    display: flex
-    align-iems=center;
+.add-icon {
+    display: flex align-iems=center;
 }
 
-.nav-search{
+.nav-search {
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
@@ -58,7 +57,7 @@
     border-radius: 4px;
 }
 
-.search-select{
+.search-select {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -67,47 +66,47 @@
     border: none;
 }
 
-.search-input{
+.search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
 }
 
-.search-icon{
+.search-icon {
     width: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color:#febd68;
+    background-color: #febd68;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     color: #0f1111;
 }
 
-.nav-search:hover{
+.nav-search:hover {
     border: 2px solid orange;
 }
 
-span{
+span {
     font-size: 0.7rem;
 }
 
-.nav-2nd{
+.nav-2nd {
     font-size: 0.85rem;
     font-weight: 700;
 }
 
-.nav-cart i{
+.nav-cart i {
     font-size: 30px;
 }
 
-.nav-cart{
+.nav-cart {
     font-size: 0.85rem;
     font-weight: 800;
 }
 
-.panel{
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -117,22 +116,22 @@ span{
 }
 
 
-.panel-ops p{
+.panel-ops p {
     display: inline;
     margin-left: 15px;
 }
 
-.panel-ops{
+.panel-ops {
     width: 70%;
     font-size: 0.85rem;
 }
 
-.panel-deals{
+.panel-deals {
     font-size: 0.9rem;
     font-weight: 700%;
 }
 
-.hero-section{
+.hero-section {
     background-image: url("hero_image.jpg");
     background-size: cover;
     height: 380px;
@@ -141,7 +140,7 @@ span{
     align-items: flex-end;
 }
 
-.hero-msg{
+.hero-msg {
     background-color: white;
     color: black;
     height: 40px;
@@ -153,17 +152,18 @@ span{
     margin-bottom: 25px;
 }
 
-.hero-msg a{
+.hero-msg a {
     color: #007185;
 }
 
-.shop-section{
+.shop-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
 }
-.box{
+
+.box {
     /* border: 2px solid black; */
     height: 350px;
     width: 23%;
@@ -172,27 +172,27 @@ span{
     margin-top: 15px;
 }
 
-.box-img{
+.box-img {
     height: 280px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.box-content{
+.box-content {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.box-content p{
+.box-content p {
     color: #007185;
 }
 
-footer{
+footer {
     margin-top: 15px;
 }
 
-.foot-panel1{
+.foot-panel1 {
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -202,25 +202,26 @@ footer{
     font-size: 0.85rem;
 }
 
-.foot-panel2{
+.foot-panel2 {
     background-color: #222f3d;
     color: white;
     height: 300px;
     display: flex;
     justify-content: space-evenly;
 }
-ul{
+
+ul {
     margin-top: 20px;
 }
 
-ul a{
+ul a {
     display: block;
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
 }
 
-.foot-panel3{
+.foot-panel3 {
     background-color: #222f3d;
     color: white;
     border-top: 0.5px solid white;
@@ -231,24 +232,25 @@ ul a{
 
 }
 
-.logo{
+.logo {
     background-image: url(amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
 }
 
-.foot-panel4{
+.foot-panel4 {
     background-color: #0f1111;
     color: white;
-    height: 100px;
-    /* display: flex;
-    justify-content: center;
-    align-items: centre; */
-
+    height: 80px;
+    font-size: 0.7rem;
+    padding-top: 5px;
 }
 
-.pages{
-    font-size: 0.7rem;
-    
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    text-align: center;
 }
