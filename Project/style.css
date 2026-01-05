@@ -167,4 +167,13 @@ span{
     height: 350px;
     width: 23%;
     background-color: white;
+    padding: 20px;
+}
+
+.box-img{
+    height: 280px;
+}
+
+.box-content{
+    margin-left: 10px;
 }
